@@ -168,15 +168,16 @@
 }
 
 .banner-2 .written button {
-    width: 100px;
-    height: 40px;
-    color: orange;
-    font-weight: 500;
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    font-weight: 600;
     font-size: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     border: 0;
     border-radius: 5px;
-    padding: 5px;
+    padding: 18px 35px;
+    cursor: pointer;
 }
 
 /* my section */
@@ -236,34 +237,46 @@ footer .form {
 
 footer .Info h1 {
     margin-bottom: 20px;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
 }
 
 footer .Info p {
     margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
 }
-
+.social-link{
+    display: flex;
+    gap: 17px;
+}
 footer .form h1 {
     margin-bottom: 20px;
 }
 
 footer .form input {
-    width: 200px;
-    height: 30px;
+    width: 325px;
+    height: 21px;
     border-radius: 5px;
     border: 1px solid white;
     background-color: black;
     color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
 footer .form button {
-    width: 100px;
-    height: 40px;
-    color: orange;
-    font-weight: 500;
+    /* width: 144px;
+    height: 63px; */
+    color: #F15B22;
+    font-weight: 600;
     font-size: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     border: 0;
     border-radius: 5px;
-    padding: 5px;
+    padding: 18px 35px;
+    cursor: pointer;
 }
