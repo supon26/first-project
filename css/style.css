@@ -63,20 +63,22 @@
 /* section part */
 .one {
     display: flex;
-    gap: 200px;
+    gap: 85px;
     margin-left: 200px;
     margin-right: 200px;
 }
 
 .one .part-1 {
-    margin-top: 150px;
-    background-color: bisque;
-    border-radius: 50%;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+    
 }
 
 .one .part-2 {
     margin-top: 350px;
-    width: 300px;
+    width: 416px;
     text-align: left;
 }
 
@@ -87,9 +89,14 @@
 }
 
 .one .part-2 p {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     font-weight: 400;
-    font-size: 18px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #444343;
+}
+.one .part-2 p i{
+    color: skyblue;
 }
 
 /* section part-2 */
